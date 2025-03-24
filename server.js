@@ -5,6 +5,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import fetch from 'node-fetch';
 import { HttpsProxyAgent } from 'https-proxy-agent';
+import dotenv from 'dotenv';
 
 const execAsync = promisify(exec);
 const app = express();
@@ -20,8 +21,9 @@ const tokenMap = {
 const HISTORY_FILE = path.join(process.cwd(), 'history.json');
 const MONITORS_FILE = path.join(process.cwd(), 'monitors.json');
 
-const TELEGRAM_TOKEN = "6050464823:AAGjS2ldGj28_CaZicCw6Dl3aZyboCE48Pc";
-const CHAT_ID = "1545291653";
+dotenv.config();
+const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN;
+const CHAT_ID = process.env.CHAT_ID;
 let lastUpdateId = 0;
 
 const proxyAgent = new HttpsProxyAgent('http://127.0.0.1:10086');
