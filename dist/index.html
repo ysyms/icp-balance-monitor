@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Monitor</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- 引入 Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="input-row">
+        <label>代币: </label>
+        <select id="canisterSelect"></select>
+        <label>钱包地址: </label>
+        <input type="text" id="accountInput" placeholder="dyotz-2bsqb-kmmri-udk7m-azjyp-ftkgn-cayrh-2grwq-kgfnm-4fxjz-gqe">
+        <button onclick="addMonitor()">添加监视器</button>
+        <button onclick="exportMonitors()">导出监控</button>
+        <button onclick="document.getElementById('importFile').click()">导入监控</button>
+        <input type="file" id="importFile" accept=".json" onchange="importMonitors()" style="display: none;">
+    </div>
+
+    <div class="monitor-container" id="monitors"></div>
+
+    <!-- 折线图模态框 -->
+    <div class="chart-modal" id="chartModal">
+        <button class="close-btn" onclick="closeChart()">×</button>
+        <div class="chart-container">
+            <canvas id="balanceChart"></canvas>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

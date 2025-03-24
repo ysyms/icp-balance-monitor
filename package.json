@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "balance-monitor",
+  "version": "1.0.0",
+  "description": "A tool to monitor balances",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@dfinity/agent": "^2.3.0",
+    "@dfinity/candid": "^2.3.0",
+    "@dfinity/identity": "^2.3.0",
+    "@dfinity/principal": "^2.3.0",
+    "express": "^4.21.2",
+    "https-proxy-agent": "^7.0.6",
+    "node-fetch": "^3.3.2"
+  }
+}

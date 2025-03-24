@@ -1,0 +1,50 @@
+[
+  {
+    "canisterId": "ryjl3-tyaaa-aaaaa-aaaba-cai",
+    "tokenName": "ICP",
+    "accountOwner": "xjth2-kysbf-j6rd4-czeqe-uowgx-y4kiu-wb5xy-t7kdg-il2px-nw4m5-bqe",
+    "lastBalance": 0
+  },
+  {
+    "canisterId": "ryjl3-tyaaa-aaaaa-aaaba-cai",
+    "tokenName": "ICP",
+    "accountOwner": "ljxsi-5du4w-3se32-vba6v-dd543-rrj3g-nayx2-f7xhd-o4u7a-ycmxw-bae",
+    "lastBalance": 0.0001
+  },
+  {
+    "canisterId": "ryjl3-tyaaa-aaaaa-aaaba-cai",
+    "tokenName": "ICP",
+    "accountOwner": "jrnhz-6ekxv-2fffs-wfcgt-l3pe7-456id-heznf-xyf64-nykjq-4jyso-zae",
+    "lastBalance": 8859.06453364
+  },
+  {
+    "canisterId": "ryjl3-tyaaa-aaaaa-aaaba-cai",
+    "tokenName": "ICP",
+    "accountOwner": "ffwso-migkp-x2fq3-xbhrr-seebj-swlyz-dnsst-uoglv-d5dks-mfmyu-2qe",
+    "lastBalance": 0.0001
+  },
+  {
+    "canisterId": "ryjl3-tyaaa-aaaaa-aaaba-cai",
+    "tokenName": "ICP",
+    "accountOwner": "bavdp-cewfm-on6zb-ejva2-goh3e-him32-fe2ke-3g2vb-57ijs-fs3mp-cae",
+    "lastBalance": 0.0001
+  },
+  {
+    "canisterId": "ryjl3-tyaaa-aaaaa-aaaba-cai",
+    "tokenName": "ICP",
+    "accountOwner": "74ekp-mnvbw-gdabj-3ho4b-jao7e-5f7iu-27xik-ouf6s-w3u22-jmzer-yqe",
+    "lastBalance": 0.0003
+  },
+  {
+    "canisterId": "ryjl3-tyaaa-aaaaa-aaaba-cai",
+    "tokenName": "ICP",
+    "accountOwner": "dyotz-2bsqb-kmmri-udk7m-azjyp-ftkgn-cayrh-2grwq-kgfnm-4fxjz-gqe",
+    "lastBalance": 0.0001
+  },
+  {
+    "canisterId": "ryjl3-tyaaa-aaaaa-aaaba-cai",
+    "tokenName": "ICP",
+    "accountOwner": "vfhdx-67tj7-akypt-6a6fx-yqzlr-3om4p-a7cem-qkozv-76oie-ghfgv-jae",
+    "lastBalance": 17.94330383
+  }
+]
