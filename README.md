@@ -25,5 +25,5 @@ This project allows users to monitor ICP token balances for multiple wallet addr
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/qingl123/icp-balance-monitor.git
+   git clone https://github.com/ysyms/icp-balance-monitor.git
    cd icp-balance-monitor
